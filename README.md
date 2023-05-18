@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# User Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Product: Documentation
+This document is created for product users and covers both End-users and Administrative users.
+•	Hardware requirements: Any device which runs a modern web browser (laptop, smartphone, desktop, tablet, etc.). An active internet connection (with a minimum speed of 512 kbps
+•	Software requirements: Any modern web browser (Firefox, Chrome, Safari, Edge, etc.). Internet Explorer is not recommended.
+System Administrator Documentation
+The system administrator needs to perform tasks such as cloning the repository, installing dependencies, and starting the client and server. Detailed instructions for each task are provided below.
 
-## Available Scripts
+#### 1.1.	 Clone the Repository
+To clone the repository, open a terminal, and use the following command: **git clone https://github.com/K-eli-wtech/CSC289-Group-8** or navigate to the github repo and clone the repo from there. The code will be downloaded to your local machine.
 
-In the project directory, you can run:
+#### 1.2.	 Install dependencies
+Navigate to both the client and server folders using the terminal. In each folder, run the following command to install the necessary dependencies: npm install.
 
-### `npm start`
+#### 1.3.	Start Client and Server
+Open two terminal windows, one in the client folder and the other in the server folder. In each terminal, run the following command: npm start. The website will now run on your local machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## End-User Documentation
+The end-user can register an account, save games to their account, and get game recommendations.
 
-### `npm test`
+#### 1.1.	Register a new account
+To register a new account, navigate to the registration page by clicking the little person icon in the top right of any page on the app. After the user will create a username, password and fill in their email.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 1.2.	Save games to your account
+After logging in, users will be directed to the profile page where they can save games to their account. To access this feature, the user will scroll down and search a game title and then search up a game by its name. If you see a title that you want to add, just click on it and it will be added to your favorite list.
 
-### `npm run build`
+#### 1.3.	 Get game recommendations
+To get game recommendations, users can either click the "Generate Recommendations" button on the homepage or navigate to the recommendation page. On the recommendation page, select three genres from the list, and then click the "Recommend" button to get game recommendations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 1.4.	 Search Game titles
+To get game recommendations, users can either click the "Generate Recommendations" button on the homepage or navigate to the recommendation page. On the recommendation page, select three genres from the list, and then click the "Recommend" button to get game recommendations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Quick Start Guide
+#### •	Clone the repository using git clone https://github.com/K-eli-wtech/CSC289-Group-8.
+#### •	Navigate to the client and server folders and open a terminal in both
+#### •	Run npm install in each.
+#### •	Start the client and server by running npm start in both folders.
+#### •	Access the website using a modern web browser.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### FAQs
+Q: Why is the website not loading?
+#### A: Make sure you have started both the client and server using npm start and the dependencies have been installed.
+Q: Why is nothing happening when I click the buttons or the cards?
+#### A: Make sure you have started the server using npm start and the dependencies have been installed.
